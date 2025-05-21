@@ -20,4 +20,4 @@ print(n_word)
 guess = input("Bir harf tahmin edin: ").upper()
 while len(guess) != 1 or not guess.isalpha():
     guess = input("Lütfen tek bir harf girin: ").upper()
-print(f"Tahmininiz :{guess}")
+print(f"Tahmininiz:{guess}")
